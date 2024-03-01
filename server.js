@@ -182,12 +182,11 @@ async function addDepartment() {
   
 
     await db.promise().query(`
-    INSERT INTO employee (first_name, last_name, role_id, manager_id)
-    VALUES
-      ('${employeeName.firtName}', '${employee.lastName}', 1, NULL), 
+    INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
+      ('${employeeName.firstName}', '${employeeName.lastName}',${employeeName.roleId},${employeeName.managerId});
     `);
   
-    console.log(`Added ${employee.name} to the database.`);
+    console.log(`Added ${employeeName.firstName} to the database.`);
   
     startPrompt();
   
