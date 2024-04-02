@@ -25,3 +25,5 @@ undefined
 ## Questions
 Please send your questions [here](mailto:Slest12@outlook.com?subject=[GitHub]%20Dev%20Connect) or visit [github/slest12](https://github.com/slest12).
 
+## Video Walkthrough
+https://app.screencastify.com/v3/watch/XTu5jdTO23Px0i7T2yWd
